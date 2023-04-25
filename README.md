@@ -1,1 +1,1 @@
-# LING_165_NLP
+# LING 165 Natural Language Processing (NLP) projects
