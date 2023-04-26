@@ -8,3 +8,4 @@ Naive Bayes [todo add brief definition]
 illegal | medical
 
 The bag-of-words model relies on a simplifying assumption. It disregards word order when counting frequencies. 
+![screenshot-of-output](http://alameda-tech-lab.com/ling/spr2013/lab3_screenshot.png)
