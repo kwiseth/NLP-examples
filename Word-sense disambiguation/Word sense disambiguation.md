@@ -8,4 +8,8 @@ Naive Bayes [todo add brief definition]
 illegal | medical
 
 The bag-of-words model relies on a simplifying assumption. It disregards word order when counting frequencies. 
+
+
+The script processes the training data and uses the results to classify the test data. The results of the classification are compared to the actual data. The output is shown in the following screenshot:
+
 ![screenshot-of-output](http://alameda-tech-lab.com/ling/spr2013/lab3_screenshot.png)
