@@ -3,10 +3,7 @@
 Use the naive Bayes ("bag-of-words") model to classify the use of the word 'drug' in various sentence as meaning 'medical' (1) or 'illegal' (0).
 Naive Bayes [todo add brief definition]
 
-> **0** = illegal
-> **1** = medical
-
-0 | 1
+**0** | 1
 --|--
 illegal | medical
 
