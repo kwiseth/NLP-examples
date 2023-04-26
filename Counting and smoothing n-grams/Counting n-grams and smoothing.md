@@ -1,4 +1,5 @@
 ### Compare bigram frequency counts using three different smoothing algorithms
+
 Using the provided training data and test data, write Python scripts to estimate expected frequencies based on observed frequencies in the training data using three different approaches:
 1. Maximum likelihood estimate
 2. Add-one smoothing
