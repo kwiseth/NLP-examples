@@ -4,7 +4,7 @@
 # Lab 3 
 # Disambiguating the word 'drug' using Naive Bayes-bag'o words model
 # We have but two choices for meaning of 'drug': illegal = 0, medical = 1
-# so this is our "c" that we need to maximize for when we try to disambiguate.
+# so this is our "c" for which we to maximize in order to disambiguate.
 
 import sys, re, math
 
@@ -27,7 +27,7 @@ wrong_ctr = 0 # Keep track of incorrect answers (may get rid of this after debug
 num_lines = 0 # Number of lines in test file
 
 def get_clean_line(some_line):
-    """ Accepts a line (a string), break into chunks (words), and then remove any extraneous punctuation marks. This is
+    """ Accept a line (a string), break into chunks (words), and then remove any extraneous punctuation marks. This is
     being used to process both the training data and the test data. """
     cleaned_line = ''
     chunks = some_line.strip().split() # Eliminate extra blank lines and extra whitespace
